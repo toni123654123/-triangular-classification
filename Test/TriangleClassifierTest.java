@@ -19,7 +19,7 @@ class TriangleClassifierTest {
     void  testTriangle3(){
         String expected ="Tam giác đều";
         String result = TriangleClassifier.TriangleClassifier1(2,2,2);
-        System.out.println(expected + result);
+        assertEquals(expected , result);
     }
     @Test
     void testTriang4(){
